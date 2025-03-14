@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <p><i>Please use the form below for any inquiries</i></p>
+        <hr>
+    </header>
+    <section>
+        <form>
+            <label for="first-name">First Name:</label>
+            <input type="text" name="first-name" id="first-name" required>
+            <br>
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" id="last-name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="phone-number">Phone Number (Optional):</label>
+            <input type="tel" name="phone-number" id="phone-number">
+            <br>
+            <label for="team-select">Favorite Premier League Team:</label>
+            <select name="team" id="team-select">
+                <option value="">--Favorite Team--</option>
+                <option value="arsenal">Arsenal</option>
+                <option value="aston-villa">Aston Villa</option>
+                <option value="Bournemouth">Bournemouth</option>
+                <option value="Brentford">Brentford</option>
+                <option value="Brighton_and_Hove_Albion_FC_crest">Brighton and Hove Albion</option>
+                <option value="Chelsea">Chelsea</option>
+                <option value="Crystal-Palace">Crystal Palace</option>
+                <option value="Everton">Everton</option>
+                <option value="Fulham">Fulham</option>
+                <option value="Ipswich">Ipswich</option>
+                <option value="Leicester-city">Leicester City</option>
+                <option value="Liverpool">Liverpool</option>
+                <option value="Manchester-city">Manchester City</option>
+                <option value="Manchester-united">Manchester United</option>
+                <option value="Newcastle-united">Newcastle United</option>
+                <option value="nottingham-forest">Nottingham Forest</option>
+                <option value="Southampton">Southampton</option>
+                <option value="tottenhamhotspur">Tottenham</option>
+                <option value="west-ham-united">West Ham United</option>
+                <option value="Wolverhampton-wanderers">Wolverhampton Wanderers</option>
+            </select>
+            <br><br>
+            <label for="communication-method">Preferred Method of Communication:</label>
+            <br>
+            <input type="radio" name="communication-method" id="email-communication" value="email">
+            <label for="email-communication">Email</label>
+            <input type="radio" name="communication-method" id="call" value="call">
+            <label for="call">Call</label>
+            <input type="radio" name="communication-method" id="texting" value="text">
+            <label for="texting">Text</label>
+            <hr>
+            <label for="message">Message:</label>
+            <br>
+            <textarea name="message" id="message" rows="10" cols="50"></textarea>
+            <br>
+            <input type="submit" value="Send Message!">
+        </form>
+    </section>
+</body>
+<footer>
+    <hr>
+    <p><a href="/index.html">Back to Main</a></p>
+    <hr>
+</footer>
+</html>
