@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premier League</title>
@@ -10,21 +11,20 @@
 <body>
     <header>
         <h1>Premier League Fan Page</h1>
-        <img src="Premier_League_Logo.svg.webp" alt="premier league logo" width="200" height="83">
+        <img class="logo" src="Premier_League_Logo.svg.webp" alt="premier league logo">
     <hr>
         <nav>
-            <ul>
-                <li><a href="https://www.premierleague.com/">Premier League Homepage</a></li>
-                <li><a href="/history.html">History</a></li>
-                <li><a href="https://www.premierleague.com/tables">Live Table</a></li>
-                <li><a href="/contact_me.html">Contact Me</a></li>
-            </ul>
+                <span><a href="https://www.premierleague.com/">Premier League Homepage</a></span>
+                <span><a href="/history.html">History</a></span>
+                <span><a href="https://www.premierleague.com/tables">Live Table</a></span>
+                <span><a href="/contact_me.html">Contact Me</a></span>
         </nav>
     <hr>
     </header>
     <main>
-        <section>
+        <section class="current">
             <h2>Current 2024/2025 Season Teams</h2>
+            <div class="current">
             <ul>
                 <li><a href="https://www.arsenal.com/">Arsenal</a></li>
                 <li><a href="https://www.avfc.co.uk/">Aston Villa</a></li>
@@ -49,6 +49,7 @@
                 <li><a href="https://www.whufc.com/">West Ham United</a></li>
                 <li><a href="https://www.wolves.co.uk/">Wolverhampton Wanderers</a></li>
             </ul>
+        </div>
         </section>
         <section>
             <h2>Current Top Goal Scorers</h2>
@@ -74,8 +75,7 @@
         </section>
         <section>
             <h2> Weekly Head to Head Player Comparison</h2>
-            <table>
-                <table border="10px">
+                <table>
                     <caption><b>2024/2025 Season</b></caption>
                     <thead>
                         <tr>
@@ -101,38 +101,38 @@
                     <tbody>
                         <tr>
                             <th>Appearances</th>
-                            <td align="center">28</td>
-                            <td align="center">19</td>
+                            <td>28</td>
+                            <td>19</td>
                         </tr>
                         <tr>
                             <th>Assists</th>
-                            <td align="center">3</td>
-                            <td align="center">4</td>
+                            <td>3</td>
+                            <td>4</td>
                         </tr>
                         <tr>
                             <th>Goals</th>
-                            <td align="center">7</td>
-                            <td align="center">3</td>
+                            <td>7</td>
+                            <td>3</td>
                         </tr>
                         <tr>
                             <th>Goals Per Match</th>
-                            <td align="center">0.25</td>
-                            <td align="center">0.16</td>
+                            <td>0.25</td>
+                            <td>0.16</td>
                         </tr>
                         <tr>
                             <th>Shots</th>
-                            <td align="center">45</td>
-                            <td align="center">23</td>
+                            <td>45</td>
+                            <td>23</td>
                         </tr>
                         <tr>
                             <th>Shots on Target</th>
-                            <td align="center">19</td>
-                            <td align="center">9</td>
+                            <td>19</td>
+                            <td>9</td>
                         </tr>
                         <tr>
                             <th>Shot Accuracy</th>
-                            <td align="center">42%</td>
-                            <td align="center">39%</td>
+                            <td>42%</td>
+                            <td>39%</td>
                         </tr>
                     </tbody>
                 </table>
