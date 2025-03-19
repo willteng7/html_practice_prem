@@ -1,0 +1,129 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    line-height: 1.5em;
+    
+}
+
+body { 
+    background-color: whitesmoke;
+    border: 3px double rgb(61, 25, 91);
+    margin: 1px;
+    padding: 15px;
+}
+
+body p {
+    text-indent: 1em;
+}
+
+nav, footer {
+    background-color: rgb(61, 25, 91);
+    opacity: 0.85;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a, footer a {
+    color: whitesmoke;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 3%;
+}
+
+.contactnav {
+    padding: 17px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    height: auto;
+    width: 275px;
+}
+
+.current ul {
+    columns: 3;
+    list-style: none;
+    
+}
+
+
+
+h1 {
+    color: rgb(61, 25, 91);
+    font-size: 3em;
+    font-weight: bolder;
+    text-indent: 0%;
+}
+
+
+h2 {
+    color: rgba(61, 25, 91, 0.817); 
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 1.5em;
+    text-indent: 0%;
+}
+
+table {
+    border: 10px groove;
+}
+
+th, td {
+    border: 5px groove;
+    text-align: center;
+}
+
+form {
+    text-align: center;
+    
+}
+
+select option {
+    text-align: center;
+}
+
+.contact {
+    display: grid;
+    place-items: center;
+}
+
+.contact p {
+    font-style: italic;
+}
+
+.comm {
+    text-align: center;
+    padding: .25%;
+}
+
+.commhead {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.personalinfo {
+    display: inline-block;
+    text-align: left;
+
+}
+
+.history-foot {
+    text-align: left;
+    color: whitesmoke;
+}
+
+.history-foot a {
+    padding: 0%;
+}
+
+input#first-name, input#last-name, input#email, input#phone-number {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.submit {
+    margin-bottom: 10px;
+}

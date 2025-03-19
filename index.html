@@ -2,25 +2,27 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Premier League</title>
 </head>
-
 <body>
     <header>
-        <h1>Premier League Fan Page</h1>
-        <img src="Premier_League_Logo.svg.webp" alt="premier league logo" width="200" height="83">
         <nav>
-            <ul>
-                <li><a href="https://www.premierleague.com/">Premier League Home</a></li>
-                <li><a href="https://en.wikipedia.org/wiki/Premier_League#History">History</a></li>
-                <li><a href="https://www.premierleague.com/tables">Live Table</a></li>
-            </ul>
-        </nav>
+            <span><a href="https://www.premierleague.com/">Premier League Homepage</a></span>
+            <span><a href="/history.html">History</a></span>
+            <span><a href="https://www.premierleague.com/tables">Live Table</a></span>
+            <span><a href="/contact_me.html">Contact Me</a></span>
+    </nav>
+    <hr>
+        <h1>Premier League Fan Page</h1>
+        <img class="logo" src="Premier_League_Logo.svg.webp" alt="premier league logo">
+    <hr>
     </header>
     <main>
-        <section>
+        <section class="current">
+            <div class="wrap">
             <h2>Current 2024/2025 Season Teams</h2>
             <ul>
                 <li><a href="https://www.arsenal.com/">Arsenal</a></li>
@@ -46,6 +48,7 @@
                 <li><a href="https://www.whufc.com/">West Ham United</a></li>
                 <li><a href="https://www.wolves.co.uk/">Wolverhampton Wanderers</a></li>
             </ul>
+        </div>
         </section>
         <section>
             <h2>Current Top Goal Scorers</h2>
@@ -71,82 +74,72 @@
         </section>
         <section>
             <h2> Weekly Head to Head Player Comparison</h2>
-            <table>
-                <table border="10px">
-                <caption><b>2024/2025 Season</b></caption>
-                <thead>
-                    <tr>
-                        <th></th>
-                        <th>
-                            <img 
-                            src="./Brighton_and_Hove_Albion_FC_crest.svg.png"  
-                            alt="Brighton Logo"
-                            width="18"
-                            height="18"/>
-                            <a href="https://www.premierleague.com/players/117732/Kaoru-Mitoma/stats?co=1&se=719">Kaoru Mitoma</a>
-                            <img 
-                            src="./Brighton_and_Hove_Albion_FC_crest.svg.png"  
-                            alt="Brighton Logo"
-                            width="18"
-                            height="18"/>
-                        </th>
-                        <th>
-                            <img 
-                                src="./Manchester_City_FC_badge.svg.png" 
-                                alt="Man City Logo"
-                                width="18"
-                                height="18"/>
-                            <a href="https://www.premierleague.com/players/54156/J%C3%A9r%C3%A9my-Doku/stats">Jeremy Doku</a>
-                            <img 
-                                src="./Manchester_City_FC_badge.svg.png" 
-                                alt="Man City Logo"
-                                width="18"
-                                height="18"/>
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Appearances</th>
-                        <td align="center">28</td>
-                        <td align="center">19</td>
-                    </tr>
-                    <tr>
-                        <th>Assists</th>
-                        <td align="center">3</td>
-                        <td align="center">4</td>
-                    </tr>
-                    <tr>
-                        <th>Goals</th>
-                        <td align="center">7</td>
-                        <td align="center">3</td>
-                    </tr>
-                    <tr>
-                        <th>Goals Per Match</th>
-                        <td align="center">0.25</td>
-                        <td align="center">0.16</td>
-                    </tr>
-                    <tr>
-                        <th>Shots</th>
-                        <td align="center">45</td>
-                        <td align="center">23</td>
-                    </tr>
-                    <tr>
-                        <th>Shots on Target</th>
-                        <td align="center">19</td>
-                        <td align="center">9</td>
-                    </tr>
-                    <tr>
-                        <th>Shot Accuracy</th>
-                        <td align="center">42%</td>
-                        <td align="center">39%</td>
-                    </tr>
-                </tbody>
-            </table>
+                <table>
+                    <caption><b>2024/2025 Season</b></caption>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>
+                                <img src="./Brighton_and_Hove_Albion_FC_crest.svg.png" alt="Brighton Logo" width="18"
+                                    height="18" />
+                                <a href="https://www.premierleague.com/players/117732/Kaoru-Mitoma/stats?co=1&se=719">
+                                    Kaoru Mitoma</a>
+                                <img src="./Brighton_and_Hove_Albion_FC_crest.svg.png" alt="Brighton Logo" width="18"
+                                    height="18" />
+                            </th>
+                            <th>
+                                <img src="./Manchester_City_FC_badge.svg.png" alt="Man City Logo" width="18"
+                                    height="18" />
+                                <a href="https://www.premierleague.com/players/54156/J%C3%A9r%C3%A9my-Doku/stats">
+                                    Jeremy Doku</a>
+                                <img src="./Manchester_City_FC_badge.svg.png" alt="Man City Logo" width="18"
+                                    height="18" />
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Appearances</th>
+                            <td>28</td>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <th>Assists</th>
+                            <td>3</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <th>Goals</th>
+                            <td>7</td>
+                            <td>3</td>
+                        </tr>
+                        <tr>
+                            <th>Goals Per Match</th>
+                            <td>0.25</td>
+                            <td>0.16</td>
+                        </tr>
+                        <tr>
+                            <th>Shots</th>
+                            <td>45</td>
+                            <td>23</td>
+                        </tr>
+                        <tr>
+                            <th>Shots on Target</th>
+                            <td>19</td>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th>Shot Accuracy</th>
+                            <td>42%</td>
+                            <td>39%</td>
+                        </tr>
+                    </tbody>
+                </table>
         </section>
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
